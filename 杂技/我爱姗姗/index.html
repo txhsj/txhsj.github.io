@@ -5,15 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 4.0.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
 <link rel="stylesheet" href="/css/main.css">
 
 <link rel="stylesheet" href="https://fonts.loli.net/css?family=Noto Serif SC:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
 
 
 <script id="hexo-configurations">
@@ -28,7 +27,7 @@
     copycode: {"enable":true,"show_result":true,"style":null},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
-    fancybox: false,
+    fancybox: true,
     mediumzoom: false,
     lazyload: false,
     pangu: false,
@@ -54,7 +53,7 @@
 <meta property="og:site_name" content="Saijin&#39;s blog">
 <meta property="og:description" content="姗姗我爱你">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-01-07T11:09:56.192Z">
+<meta property="og:updated_time" content="2020-01-08T03:53:26.062Z">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://yoursite.com/%E6%9D%82%E6%8A%80/%E6%88%91%E7%88%B1%E5%A7%97%E5%A7%97/">
@@ -231,10 +230,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-01-07 19:04:35 / 修改时间：19:09:56" itemprop="dateCreated datePublished" datetime="2020-01-07T19:04:35+08:00">2020-01-07</time>
+              <time title="创建时间：2020-01-07 19:04:35" itemprop="dateCreated datePublished" datetime="2020-01-07T19:04:35+08:00">2020-01-07</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-01-08 11:53:26" itemprop="dateModified" datetime="2020-01-08T11:53:26+08:00">2020-01-08</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -258,7 +263,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="姗姗我爱你"><a href="#姗姗我爱你" class="headerlink" title="姗姗我爱你"></a>姗姗我爱你</h1><a id="more"></a>
+        <h2 id="姗姗我爱你"><a href="#姗姗我爱你" class="headerlink" title="姗姗我爱你"></a>姗姗我爱你</h2><a id="more"></a>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">println(<span class="string">"姗姗我爱你，永远健康快乐"</span>)</span><br></pre></td></tr></table></figure>
 
 
@@ -350,14 +355,16 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#姗姗我爱你"><span class="nav-text">姗姗我爱你</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#姗姗我爱你"><span class="nav-text">姗姗我爱你</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Saijin Huang"
-      src="/images/pikaqiu1.jpg">
+    <a href="/">
+      <img class="site-author-image" itemprop="image" alt="Saijin Huang"
+        src="/images/pikaqiu1.jpg">
+    </a>
   <p class="site-author-name" itemprop="name">Saijin Huang</p>
   <div class="site-description" itemprop="description">In me the tiger sniffs the rose</div>
 </div>
@@ -408,7 +415,7 @@
 
 <div class="copyright">
   
-  &copy; 
+  &copy; 2016 – 
   <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
@@ -435,7 +442,11 @@
   </div>
 
   
+  
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
   <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 <script src="/js/utils.js"></script><script src="/js/motion.js"></script>
