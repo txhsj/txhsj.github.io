@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>hexo静态博客搭建</title>
+    <url>/%E6%8A%80%E6%9C%AF/hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<h2 id="一、git、github"><a href="#一、git、github" class="headerlink" title="一、git、github"></a>一、git、github</h2><p>git安装与配置请参考 <a href="https://git-scm.com/" target="_blank" rel="noopener">git官网</a></p>
+<p>静态博客这里采用github pages做托管，需要在github开启pages功能，同时以master分支作为博客页面分支</p>
+<p>以source分支来存放博客原文md。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我爱姗姗</title>
-    <url>/%E6%9D%82%E6%8A%80/%E6%88%91%E7%88%B1%E5%A7%97%E5%A7%97/</url>
-    <content><![CDATA[<h2 id="姗姗我爱你"><a href="#姗姗我爱你" class="headerlink" title="姗姗我爱你"></a>姗姗我爱你</h2><a id="more"></a>
+    <url>/%E6%9D%82%E8%AE%B0/%E6%88%91%E7%88%B1%E5%A7%97%E5%A7%97/</url>
+    <content><![CDATA[<h2 id="姗姗我爱你"><a href="#姗姗我爱你" class="headerlink" title="姗姗我爱你"></a>姗姗我爱你</h2><p>这是为我的老婆建立的blog，一是为了纪念我们搬进了新家，二是为了激励自己坚持写作，总结自己。</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line">println(<span class="string">"姗姗我爱你，永远健康快乐"</span>)</span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
-        <category>杂技</category>
+        <category>杂记</category>
       </categories>
       <tags>
-        <tag>杂记</tag>
+        <tag>家庭</tag>
       </tags>
   </entry>
 </search>
