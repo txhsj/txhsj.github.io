@@ -6,6 +6,23 @@
     <content><![CDATA[<h2 id="一、git、github"><a href="#一、git、github" class="headerlink" title="一、git、github"></a>一、git、github</h2><p>git安装与配置请参考 <a href="https://git-scm.com/" target="_blank" rel="noopener">git官网</a></p>
 <p>静态博客这里采用github pages做托管，需要在github开启pages功能，同时以master分支作为博客页面分支</p>
 <p>以source分支来存放博客原文md。</p>
+<h2 id="二、nodejs、hexo安装"><a href="#二、nodejs、hexo安装" class="headerlink" title="二、nodejs、hexo安装"></a>二、nodejs、hexo安装</h2><p>nodejs安装参考<a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">官网</a></p>
+<p>hexo安装：</p>
+<figure class="highlight avrasm"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-<span class="keyword">cli</span></span><br></pre></td></tr></table></figure>
+
+<p>初始化博客</p>
+<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo init blog</span></span><br></pre></td></tr></table></figure>
+
+<p>生成博客</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">--新建博客</span><br><span class="line">hexo new post &lt;postname&gt;</span><br><span class="line">--清除public目录</span><br><span class="line">hexo clean</span><br><span class="line">--生成public目录</span><br><span class="line">hexo g</span><br><span class="line">--上传部署</span><br><span class="line">hexo d</span><br><span class="line">--本地查看</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<h2 id="三、博客原文存放"><a href="#三、博客原文存放" class="headerlink" title="三、博客原文存放"></a>三、博客原文存放</h2><p>master分支只存放博文的html，需要新建source分支存放博文</p>
+<p>在blog目录下</p>
+<figure class="highlight dockerfile"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git remote <span class="keyword">add</span><span class="bash"> &lt;&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="四、主题"><a href="#四、主题" class="headerlink" title="四、主题"></a>四、主题</h2><p>推荐两个主题</p>
+<p><a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">next</a>:hexo下最火的主题</p>
+<p><a href="https://github.com/tufu9441/maupassant-hexo" target="_blank" rel="noopener">maupassant</a>:Maupassant最初是由<a href="https://github.com/pagecho/" target="_blank" rel="noopener">Cho</a>大神为<a href="http://typecho.org/" target="_blank" rel="noopener">Typecho</a>平台设计开发的一套响应式模板，体积只有20KB.特点就是简洁，快！</p>
 ]]></content>
       <categories>
         <category>技术</category>
